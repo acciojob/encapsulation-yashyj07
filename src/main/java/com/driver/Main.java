@@ -13,8 +13,8 @@ public class Main {
             java: name has private access in com.driver.RWOnly
         */
 
-        rw.setter("Test");
-        rw.getter();
+        rw.setName("Test");
+        rw.getName();
 
     }
 }
