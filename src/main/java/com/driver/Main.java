@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         RWOnly rw = new RWOnly();
 
-
         /*
         rw.name = "Test";
         System.out.println(name);
@@ -14,7 +13,7 @@ public class Main {
         */
 
         rw.setName("Test");
-        rw.getName();
+        System.out.println(rw.getName());
 
     }
 }
